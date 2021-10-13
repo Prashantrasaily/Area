@@ -1,3 +1,13 @@
-radius = int(input("Enter the radius of circle whose area you want :")) # asking for radius from the user 
-area = 3.14 * radius * radius # sice the area of circle is pi*radius*radius
-print(area) # priting the radius 
+#include<iostream>
+using namespace std;
+int main()
+{
+float radius;
+float result;
+cout<<"Enter the radius of the circle"<<endl;
+cin>>radius;
+result = 3.14 * radius * radius;
+cout<<"The area of the circle is "<<result<<endl;
+
+    return 0;
+}
